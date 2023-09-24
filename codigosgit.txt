@@ -1,0 +1,48 @@
+para configurar git
+
+git --version                                           sirve para averiguar la version de git
+git config --global                                     configuracion general para todo"
+git config --global user.name "name"                    se usa para agregar el numbre y se usan las comillas dobles"
+git config --global user.email "email" 
+git config --global core.editor "code --wait"           el --wait es para que la terminar espere que se cierre el editor
+git config --global -e                                  abre el archivo de configuracion en vscode
+git config --global core.autocrlf true/input            true para windows y input para mac y linux
+git config -h                                           listado de todas las configuraciones de git
+clear                                                   para limpiar
+---------------------------------------------------------------------------------------------------------------------------
+
+ls                                                      permite ver todas las carpetas y listas de donde se ubique
+ls -a                                                   permite ver todo las carpetas incluido las ocultas
+pwd                                                     para ver la ubicacion actual
+cd "directorio a donde mover"                           sirve para moverse de direccion hacia adelante
+cd ..                                                   mueve hacia atras o salir de un directorio
+mkdir "nombre del directorio/carpeta"                   crea un nuevo directorios
+git init                                                inicializa un repositorio git dentro del directorio actual
+---------------------------------------------------------------------------------------------------------------------------
+
+code .                                                  abre visual en la carpeta del directorio
+git status                                              ver estado de las actualizaciones o acciones hechas
+git status -s                                           permite ver el estado de forma mas precisa
+git add "nombre del archivo"                            para añadir las acciones a la etapa de stage, para añadir mas de un argumendo o archivo, separarlos por espacio
+git add *."extension"                                   para añadir todas las acciones que pertenescan a las extension que se mencione ejemplo .txt .c .py etc
+git add .                                               para añadir todo a stage
+git commit -m "commit"                                  para añadir un commit
+git commit                                              abre visual para añadir el commit el cual se escribe en la primera linea y guardarlo
+rm                                                      para elimiar un archivo
+git rm "nombre del archivo"                             para hacerlo mas rapido
+git restore --stage "nombre del archivo"                1er paso para restaurar un archivo
+git restore "nombre del archivo"                        2do paso para hacerlo
+mv "nombre del archivo" "nombre del archivo destino"    cambiar nombre del archivo
+git mv                                                  atajo
+.gitignore                                              sirve para ignorar las carpetas y archivos añadidos, hay que copiar el nombre de los archivos y carpetas dentro de elimiar
+git diff                                                ver los cambios por dentro o mas especificos
+git diff --staged                                       ver cambios en staged
+git log                                                 ver historial completo
+git log --oneline                                       ver historial mas preciso, mmuestra los commits con un hask o id
+git branch                                              ver la rama actual master en windows y main en linux y mac
+git checkout -b "nombre"                                crear nueva rama y moverse a ella
+cat "nombre"                                            mostrar el contenido del archivo
+git merge "nombre"                                      mover archivos de ramas a otras
+git remove add origin "enlace"                          subir git a la nube
+git push -u origin "rama"                               montar la rama a la nube
+
