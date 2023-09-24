@@ -43,6 +43,6 @@ git branch                                              ver la rama actual maste
 git checkout -b "nombre"                                crear nueva rama y moverse a ella
 cat "nombre"                                            mostrar el contenido del archivo
 git merge "nombre"                                      mover archivos de ramas a otras
-git remove add origin "enlace"                          subir git a la nube
+git remote add origin "enlace"                          subir git a la nube
 git push -u origin "rama"                               montar la rama a la nube
 
