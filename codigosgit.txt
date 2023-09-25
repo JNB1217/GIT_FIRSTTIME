@@ -41,6 +41,7 @@ git log                                                 ver historial completo
 git log --oneline                                       ver historial mas preciso, mmuestra los commits con un hask o id
 git branch                                              ver la rama actual master en windows y main en linux y mac
 git checkout -b "nombre"                                crear nueva rama y moverse a ella
+git checkout "nombre"                                   para moverse de una rama a otras
 cat "nombre"                                            mostrar el contenido del archivo
 git merge "nombre"                                      mover archivos de ramas a otras
 git remote add origin "enlace"                          subir git a la nube
